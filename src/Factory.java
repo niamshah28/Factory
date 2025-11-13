@@ -22,9 +22,26 @@ public String products;
         products = "houses";
         int x;
         FactoryInfo();
+            System.out.println("we make houses!");
+            yearFounded = 2010;
+            isOpen = false;
+            Earnings = 28;
+            products = "houses";
 
         //Change the value of the yearFounded and isOpen
-        //call factoryinfo()
+        //call factoryInfo()
+
+        //type variableName = value;
+        //Object of type house
+        House h1 = new House();
+        h1.owner = "Toby Heikka";
+        System.out.println("the owner is" + h1.owner);
+        //todo: give all the house instance variables values
+        h1.address = "1793 Canton Ave, Milton, MA, 0120186";
+        h1.size = 1;
+        h1.isOccupied = true;
+        h1.walls = 4;
+
 
     }
 
