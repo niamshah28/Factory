@@ -43,6 +43,26 @@ public String products;
         h1.walls = 4;
 
 
+        House h2 = new House();
+
+        System.out.println(h2.size);
+        h2.size = 40.2;
+        System.out.println(h2.size);
+        h2.printInfo();
+
+        //todo: make another house object called myHouse
+        //call printInfo on myHouse
+        House myHouse = new House();
+
+        System.out.println(myHouse.size);
+        myHouse.size = 40.2;
+        System.out.println(myHouse.size);
+        myHouse.printInfo();
+
+
+        House customHouse = new House(200.24,8,"Gabe");
+        customHouse.printInfo();
+
     }
 
 
