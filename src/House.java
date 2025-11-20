@@ -1,4 +1,3 @@
-import java.security.acl.Owner;
 
 public class House {
 
@@ -28,7 +27,7 @@ public class House {
     //set the insatnce variables value to the parameter
     //fix the realated problems by adding them to the code in the factory class
 
-    public House(double pSize, int pWalls, String pOwner, String address, boolean isOccupied){
+    public House(double pSize, int pWalls, String pOwner, String pAddress, boolean pIsOccupied){
         size = pSize;
         walls = pWalls;
         owner = pOwner;
