@@ -60,7 +60,7 @@ public String products;
         myHouse.printInfo();
 
 
-        House customHouse = new House(200.24,8,"Gabe");
+        House customHouse = new House(200.24,8,"Gabe", "4 long hill rd", true);
         customHouse.printInfo();
 
     }

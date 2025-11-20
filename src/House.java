@@ -28,7 +28,7 @@ public class House {
     //set the insatnce variables value to the parameter
     //fix the realated problems by adding them to the code in the factory class
 
-    public House(double pSize, int pWalls, String pOwner){
+    public House(double pSize, int pWalls, String pOwner, String address, boolean isOccupied){
         size = pSize;
         walls = pWalls;
         owner = pOwner;
